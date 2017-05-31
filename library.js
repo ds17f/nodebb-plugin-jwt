@@ -17,7 +17,7 @@
     JWT.settings = {
       cookiedomain: '',
       cookielifetime: 60,
-      cookiename: nodebb,
+      cookiename: 'nodebb',
       secret: ''
     };
 
