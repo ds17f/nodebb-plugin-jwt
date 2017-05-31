@@ -18,7 +18,7 @@
       cookiedomain: '',
       cookielifetime: 60,
       cookiename: 'nodebb',
-      secret: ''
+      secret: 'donotusethissecret'
     };
 
     JWT.init = function (params, callback) {
