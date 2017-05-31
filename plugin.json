@@ -8,12 +8,17 @@
     "hooks": [
         { "hook": "static:app.load", "method": "init" },
         { "hook": "filter:admin.header.build", "method": "addAdminNavigation" },
-        { "hook": "action:settings.set", "method": "reloadSettings" }
+        { "hook": "action:settings.set", "method": "reloadSettings" },
+        { "hook": "filter:router.page", "method": "writeCookieOnPage" },
+        { "hook": "static:user.loggedOut", "method": "removeCookieOnLogout" }
     ],
     "less": [
         "./less/style.less"
     ],
     "acpScripts": [
         "public/js/admin.js"
-    ]
+    ],
+    "nbbpm": {
+        "compatibility": "^1.5.0"
+    }
 }
