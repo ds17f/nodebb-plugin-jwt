@@ -47,7 +47,7 @@
 
     JWT.reloadSettings=function(){
         meta.settings.get('jwt', function(err, settings) {
-          JWT.settings.cookiedomain = settings.cookedomain || JWT.settings.cookiedomain;
+          JWT.settings.cookiedomain = settings.cookiedomain || JWT.settings.cookiedomain;
           JWT.settings.cookielifetime = settings.cookielifetime || JWT.settings.cookielifetime;
           JWT.settings.cookiename = settings.cookiename || JWT.settings.cookiename;
           JWT.settings.secret = settings.secret || JWT.settings.secret;
