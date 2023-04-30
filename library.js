@@ -5,6 +5,8 @@
     console.log('lopez was here')
     console.log('*********************')
 
+    console.log(JSON.stringify(module))
+
     var meta = module.parent.require('./meta'),
         user = module.parent.require('./user'),
         controllers = require('./lib/controllers'),
