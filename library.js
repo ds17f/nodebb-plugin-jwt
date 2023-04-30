@@ -1,7 +1,9 @@
 (function (module) {
     "use strict";
 
+    console.log('*********************')
     console.log('lopez was here')
+    console.log('*********************')
 
     var meta = module.parent.require('./meta'),
         user = module.parent.require('./user'),
