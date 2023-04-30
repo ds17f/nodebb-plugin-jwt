@@ -5,8 +5,11 @@
     console.log('lopez was here')
     console.log('*********************')
 
-    console.log(module)
+    
     console.log(module?.parent)
+    console.log('*********************')
+    console.log(module.parent.require('./user'))
+    console.log(JSON.stringify(module.parent.require('./user')))
 
     var meta = module.parent.require('./meta'),
         user = module.parent.require('./user'),
