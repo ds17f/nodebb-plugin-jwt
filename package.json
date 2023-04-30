@@ -24,6 +24,7 @@
   "homepage": "https://github.com/bsparks/nodebb-plugin-jwt",
   "dependencies": {
     "jsonwebtoken": "^6.2.0",
-    "lodash": "^4.11.2"
+    "lodash": "^4.11.2",
+    "nconf": "^0.8.4"
   }
 }
