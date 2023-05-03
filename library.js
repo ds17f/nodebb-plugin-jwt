@@ -1,9 +1,9 @@
 (function (module) {
     "use strict";
 
-    var meta = module.parent.require('./meta'),
-        user = module.parent.require('./user'),
-        controllers = require('./lib/controllers'),
+    var meta = module.parent.require('../meta'),
+        user = module.parent.require('../user'),
+        controllers = require('./lib/controllers.js'),
         nconf = require("nconf");
 
     var constants = Object.freeze({
